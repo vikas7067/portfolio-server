@@ -25,7 +25,7 @@ const formRouter = require('./router/ContactRouter')
 const cors = require('cors');
 app.use(cors({ origin: 'https://vikashofficialresearcher.netlify.app/' }));
 
-const port = process.env.PORT || 10000;
+const port = process.env.PORT || 8080;
 
 app.listen(port, ()=>
 {
